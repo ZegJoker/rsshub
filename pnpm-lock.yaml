@@ -143,8 +143,8 @@ importers:
         specifier: 0.7.2
         version: 0.7.2
       imapflow:
-        specifier: 1.4.3
-        version: 1.4.3
+        specifier: 1.4.7
+        version: 1.4.7
       instagram-private-api:
         specifier: 1.46.1
         version: 1.46.1
@@ -2702,6 +2702,9 @@ packages:
   '@zone-eu/mailsplit@5.4.13':
     resolution: {integrity: sha512-j40NeNlSAivqnKEjzZYsGP/bKWr2zwuyb8XOYsC3i0ZlfM5UnTYTa7aCRkE8rYQvVzE1dRjVYdvZ1Epi6x+h6w==}
 
+  '@zone-eu/mailsplit@5.4.14':
+    resolution: {integrity: sha512-rz0FQOhN3Vq1XrSeSSa9+dPcaFbBxmQPjiZm6zS9oxdVHV7rOWIAYX3yP2YAUf0qBncY8CI+NogzPCmMVrMXcw==}
+
   abbrev@3.0.1:
     resolution: {integrity: sha512-AO2ac6pjRB3SJmGJo+v5/aK6Omggp6fsLrs6wN9bd35ulu4cCwaAU9+7ZhXjeqHVkaHThLuzH0nZr0YpCDhygg==}
     engines: {node: ^18.17.0 || >=20.5.0}
@@ -3895,6 +3898,10 @@ packages:
     resolution: {integrity: sha512-im9DjEDQ55s9fL4EYzOAv0yMqmMBSZp6G0VvFyTMPKWxiSBHUj9NW/qqLmXUwXrrM7AvqSlTCfvqRb0cM8yYqw==}
     engines: {node: '>=0.10.0'}
 
+  iconv-lite@0.7.3:
+    resolution: {integrity: sha512-IKXpvIzjnC9XTAUbVBcMfGS0EPaIXtW6v+zr+RRp+hqULEpo0owZax6wyRwPOJbWbzjYspQwusTsfVr0ifh4uQ==}
+    engines: {node: '>=0.10.0'}
+
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
 
@@ -3911,8 +3918,8 @@ packages:
     engines: {node: '>=6.9.0'}
     hasBin: true
 
-  imapflow@1.4.3:
-    resolution: {integrity: sha512-UNimp06TINpFLx7g5nXh/8+oykfaHy6zgvLuQseLifGrQUSqDexuSKrksM+uA9mQw1cYJTOVrFPRTHkK+W/tpw==}
+  imapflow@1.4.7:
+    resolution: {integrity: sha512-nK03WfN16inwm0//0Q70T21G0g4H9ArMVyzKDRjAshOVV8iw71PP9HTpAXNmWB9giZWfPiS+ltHByi37cqwSgg==}
 
   import-fresh@3.3.1:
     resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
@@ -4196,6 +4203,9 @@ packages:
 
   libmime@5.4.0:
     resolution: {integrity: sha512-MAWyU2qYtCsrZ6GClgukz2jx73NQrzA6ASo9qzThuTG+A7+H3lWQuBsjoy9lls+v6q/epAeBdEMJ3T0f4b+uRw==}
+
+  libmime@5.4.1:
+    resolution: {integrity: sha512-0wHGhsofo9IdQPenr3BBHXuxcwMq4atFUTsZ9Ogc1OvI5h4rUdDIrBQEN9JHjCXfDMrE59LUMJWsTD82wTYk8A==}
 
   libqp@2.1.1:
     resolution: {integrity: sha512-0Wd+GPz1O134cP62YU2GTOPNA7Qgl09XwCqM5zpBv87ERCXdfDtyKXvV7c9U22yWJh44QZqBocFnXN11K96qow==}
@@ -4517,6 +4527,11 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+  nanoid@3.3.16:
+    resolution: {integrity: sha512-bzlKTyNJ7+LdGIIwy8ijFpIqEQIvafahV7eYykJ8Cvh42EdJeODoJ6gUJXpQJvej1BddH8OqTXZNE/KfbWAu8Q==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
   nanoid@5.1.16:
     resolution: {integrity: sha512-kVrnsrJqMR8+oLJnGEmSWw9BivK5mt7H3FZatVRjrc5wGqFYuBxX1yG7+A7Gi5AefkX6t/oCkizcQgpu0cY1dQ==}
     engines: {node: ^18 || >=20}
@@ -4576,6 +4591,10 @@ packages:
 
   nodemailer@9.0.1:
     resolution: {integrity: sha512-Gwv8SQewT616ZM/URn0H54b8PWo/Wum7md3EW2aWy1lO27+WZCX+Xyak3J+NlmHUjDh5ME+uesJUDRbR3Ye8Bw==}
+    engines: {node: '>=6.0.0'}
+
+  nodemailer@9.0.3:
+    resolution: {integrity: sha512-n+YP+NKwR5zRWa60k3GiQ6Q3B4KXCoAw40dAKeCtYn020iNN74aWK2liXIC3ZEATeGql7we3tE3t8QwhY0eskw==}
     engines: {node: '>=6.0.0'}
 
   nopt@10.0.1:
@@ -4806,6 +4825,10 @@ packages:
     resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
     engines: {node: '>=12'}
 
+  picomatch@4.0.5:
+    resolution: {integrity: sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==}
+    engines: {node: '>=12'}
+
   pino-abstract-transport@3.0.0:
     resolution: {integrity: sha512-wlfUczU+n7Hy/Ha5j9a/gZNy7We5+cXp8YL+X+PG8S0KXxw7n/JXA3c46Y0zQznIJ83URJiwy7Lh56WLokNuxg==}
 
@@ -4822,6 +4845,10 @@ packages:
 
   postcss@8.5.16:
     resolution: {integrity: sha512-vuwillviilfKZsg0VGj5R/YwwcHx4SLsIOI/7K6mQkWx+l5cUHTjj5g0AasTBcyXsbfTgrwsUNmVUb5xVwyPwg==}
+    engines: {node: ^10 || ^12 || >=14}
+
+  postcss@8.5.18:
+    resolution: {integrity: sha512-xdB1oSLHbz1vRWgCDalrCqEFTWzFlhqFC5tIHLMOSUIjhm3XXQ1qrFy8S/ESr1JYRRXqM3c1QFiMZUJdUTqyMQ==}
     engines: {node: ^10 || ^12 || >=14}
 
   postman-request@2.88.1-postman.48:
@@ -7805,6 +7832,12 @@ snapshots:
       libmime: 5.4.0
       libqp: 2.1.1
 
+  '@zone-eu/mailsplit@5.4.14':
+    dependencies:
+      libbase64: 1.3.0
+      libmime: 5.4.1
+      libqp: 2.1.1
+
   abbrev@3.0.1: {}
 
   abbrev@5.0.0: {}
@@ -8710,6 +8743,10 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.4
 
+  fdir@6.5.0(picomatch@4.0.5):
+    optionalDependencies:
+      picomatch: 4.0.5
+
   fecha@4.2.3: {}
 
   fetch-blob@3.2.0:
@@ -9100,6 +9137,10 @@ snapshots:
     dependencies:
       safer-buffer: '@nolyfill/safer-buffer@1.0.44'
 
+  iconv-lite@0.7.3:
+    dependencies:
+      safer-buffer: '@nolyfill/safer-buffer@1.0.44'
+
   ieee754@1.2.1: {}
 
   ignore@5.3.2: {}
@@ -9108,15 +9149,15 @@ snapshots:
 
   image-size@0.7.5: {}
 
-  imapflow@1.4.3:
+  imapflow@1.4.7:
     dependencies:
-      '@zone-eu/mailsplit': 5.4.13
+      '@zone-eu/mailsplit': 5.4.14
       encoding-japanese: 2.2.0
-      iconv-lite: 0.7.2
+      iconv-lite: 0.7.3
       libbase64: 1.3.0
-      libmime: 5.4.0
+      libmime: 5.4.1
       libqp: 2.1.1
-      nodemailer: 9.0.1
+      nodemailer: 9.0.3
       pino: 10.3.1
       socks: 2.8.9
 
@@ -9411,6 +9452,13 @@ snapshots:
     dependencies:
       encoding-japanese: 2.2.0
       iconv-lite: 0.7.2
+      libbase64: 1.3.0
+      libqp: 2.1.1
+
+  libmime@5.4.1:
+    dependencies:
+      encoding-japanese: 2.2.0
+      iconv-lite: 0.7.3
       libbase64: 1.3.0
       libqp: 2.1.1
 
@@ -9930,6 +9978,8 @@ snapshots:
 
   nanoid@3.3.15: {}
 
+  nanoid@3.3.16: {}
+
   nanoid@5.1.16: {}
 
   narou@2.0.1: {}
@@ -9974,6 +10024,8 @@ snapshots:
   node-releases@2.0.50: {}
 
   nodemailer@9.0.1: {}
+
+  nodemailer@9.0.3: {}
 
   nopt@10.0.1:
     dependencies:
@@ -10234,6 +10286,8 @@ snapshots:
 
   picomatch@4.0.4: {}
 
+  picomatch@4.0.5: {}
+
   pino-abstract-transport@3.0.0:
     dependencies:
       split2: 4.2.0
@@ -10259,6 +10313,12 @@ snapshots:
   postcss@8.5.16:
     dependencies:
       nanoid: 3.3.15
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  postcss@8.5.18:
+    dependencies:
+      nanoid: 3.3.16
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -10951,7 +11011,7 @@ snapshots:
 
   ts-declaration-location@1.0.7(typescript@5.9.3):
     dependencies:
-      picomatch: 4.0.4
+      picomatch: 4.0.5
       typescript: 5.9.3
     optional: true
 
@@ -11191,9 +11251,9 @@ snapshots:
   vite@7.3.1(@types/node@26.1.0)(jiti@2.6.1)(tsx@4.22.4)(yaml@2.9.0):
     dependencies:
       esbuild: 0.27.7
-      fdir: 6.5.0(picomatch@4.0.4)
-      picomatch: 4.0.4
-      postcss: 8.5.16
+      fdir: 6.5.0(picomatch@4.0.5)
+      picomatch: 4.0.5
+      postcss: 8.5.18
       rollup: 4.62.2
       tinyglobby: 0.2.17
     optionalDependencies:
